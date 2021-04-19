@@ -6,7 +6,7 @@ AceEditor for Android
 
 ### Add the JitPack repository to your build file 
 Step 1: Add it in your root build.gradle (project level) at the end of repositories:
-```java
+```gradle
 	allprojects {
 		repositories {
 			...
@@ -16,7 +16,7 @@ Step 1: Add it in your root build.gradle (project level) at the end of repositor
 ```
 	
 Step 2: Now Add the dependency
-```java 
+```gradle
 	dependencies {
 		...
 	        implementation 'com.github.deviknitkkr:AceEditor:Tag'
