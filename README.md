@@ -19,7 +19,7 @@ Step 2: Now Add the dependency
 ```java 
 	dependencies {
 		...
-	        implementation 'com.github.deviknitkkr:AceEditor:1.0'
+	        implementation 'com.github.deviknitkkr:AceEditor:Tag'
 	}
 ```
   
