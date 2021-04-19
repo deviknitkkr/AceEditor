@@ -1,0 +1,3 @@
+include ':aceeditor'
+include ':app'
+rootProject.name = "AceEditor"

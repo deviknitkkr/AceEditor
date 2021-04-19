@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ACE in Action</title>
+</head>
+<body>
+<script>
+    var localLang = (navigator.browserLanguage || navigator.language).toLowerCase();
+    if (localLang === "zh-cn") {
+        location.href = "ace-cn.html";
+    } else {
+        location.href = "ace.html";
+    }
+</script>
+</body>
+</html>
